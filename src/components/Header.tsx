@@ -26,7 +26,7 @@ export default function Header() {
               </svg>
             </div>
             <span className="text-xl font-bold text-[var(--primary)]">
-              Insolvencia<span className="text-[var(--accent)]">Legal</span>
+              Insolvencia<span className="text-[var(--accent)]"> 360</span>
             </span>
           </a>
 
@@ -57,10 +57,22 @@ export default function Header() {
               Preguntas Frecuentes
             </a>
             <a
+              href="/blog"
+              className="text-sm font-medium text-gray-600 hover:text-[var(--primary)] transition-colors"
+            >
+              Blog
+            </a>
+            <a
               href="#contacto"
               className="inline-flex items-center gap-2 px-5 py-2.5 bg-[var(--accent)] text-[var(--primary)] font-bold rounded-full hover:bg-[var(--accent-light)] transition-colors text-sm"
             >
               ASESORÍA GRATIS
+            </a>
+            <a
+              href="/login"
+              className="inline-flex items-center gap-2 px-4 py-2 border border-[var(--primary)]/30 text-[var(--primary)] font-medium rounded-full hover:bg-[var(--primary)] hover:text-white transition-colors text-sm"
+            >
+              Ingresar
             </a>
           </nav>
 
@@ -127,11 +139,25 @@ export default function Header() {
               Preguntas Frecuentes
             </a>
             <a
+              href="/blog"
+              className="block py-2 text-gray-600 hover:text-[var(--primary)]"
+              onClick={() => setMenuOpen(false)}
+            >
+              Blog
+            </a>
+            <a
               href="#contacto"
               className="block py-2 text-[var(--accent)] font-bold"
               onClick={() => setMenuOpen(false)}
             >
               ASESORÍA GRATIS
+            </a>
+            <a
+              href="/login"
+              className="block py-2 text-[var(--primary)] font-medium"
+              onClick={() => setMenuOpen(false)}
+            >
+              Ingresar
             </a>
           </nav>
         )}

@@ -22,7 +22,7 @@ export default function Footer() {
                 </svg>
               </div>
               <span className="text-xl font-bold">
-                Insolvencia<span className="text-[var(--accent)]">Legal</span>
+                Insolvencia<span className="text-[var(--accent)]"> 360</span>
               </span>
             </div>
             <p className="text-gray-400 text-sm">
@@ -79,7 +79,7 @@ export default function Footer() {
 
         <div className="border-t border-gray-700 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-gray-500 text-sm">
-            &copy; {new Date().getFullYear()} InsolvenciaLegal. Todos los
+            &copy; {new Date().getFullYear()} Insolvencia 360. Todos los
             derechos reservados.
           </p>
           <div className="flex items-center gap-4 text-gray-500 text-sm">

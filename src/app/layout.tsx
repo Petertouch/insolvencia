@@ -9,7 +9,7 @@ const gudea = Gudea({
 });
 
 export const metadata: Metadata = {
-  title: "Insolvencia Colombia | Ley 1564 - Solución Legal a tus Deudas",
+  title: "Insolvencia 360 | Ley 1564 - Solución Legal a tus Deudas",
   description:
     "Asesórate con expertos en la Ley de Insolvencia 1564. Negocia tus deudas, frena embargos y recupera tu tranquilidad financiera. Consulta gratuita.",
   keywords:
