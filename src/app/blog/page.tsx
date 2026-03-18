@@ -55,8 +55,14 @@ export default function BlogPage() {
               href={`/blog/${post.slug}`}
               className="group bg-white rounded-2xl border border-gray-100 overflow-hidden hover:shadow-lg hover:-translate-y-1 transition-all duration-300"
             >
-              <div className="h-44 bg-gradient-to-br from-[var(--primary)] to-[var(--primary-light)] flex items-center justify-center p-6">
-                <span className="text-white/20 text-6xl font-black">360</span>
+              <div className="h-44 bg-gradient-to-br from-[var(--primary)] to-[var(--primary-light)] overflow-hidden">
+                {post.imagen ? (
+                  <img src={post.imagen} alt={post.titulo} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                ) : (
+                  <div className="w-full h-full flex items-center justify-center">
+                    <span className="text-white/20 text-6xl font-black">360</span>
+                  </div>
+                )}
               </div>
               <div className="p-5">
                 <span className="inline-block px-3 py-1 bg-[var(--accent)]/10 text-[var(--accent)] text-xs font-medium rounded-full mb-3">

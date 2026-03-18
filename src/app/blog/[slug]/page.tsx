@@ -132,6 +132,14 @@ export default function BlogPostPage() {
         </div>
       </header>
 
+      {post.imagen && (
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 -mt-8">
+          <div className="rounded-2xl overflow-hidden shadow-xl">
+            <img src={post.imagen} alt={post.titulo} className="w-full h-56 md:h-72 object-cover" />
+          </div>
+        </div>
+      )}
+
       <main className="max-w-3xl mx-auto px-4 sm:px-6 py-10">
         <article className="prose-custom">{renderMarkdown(post.contenido)}</article>
 
@@ -156,13 +164,18 @@ export default function BlogPostPage() {
                 <Link
                   key={r.slug}
                   href={`/blog/${r.slug}`}
-                  className="p-4 border border-gray-100 rounded-xl hover:shadow-md transition-all group"
+                  className="border border-gray-100 rounded-xl overflow-hidden hover:shadow-md transition-all group"
                 >
-                  <span className="text-xs text-[var(--accent)] font-medium">{r.categoria}</span>
-                  <h4 className="text-[var(--primary)] font-semibold text-sm mt-1 group-hover:text-[var(--primary-light)] transition-colors line-clamp-2">
-                    {r.titulo}
-                  </h4>
-                  <p className="text-gray-400 text-xs mt-2">{r.lectura} de lectura</p>
+                  {r.imagen && (
+                    <img src={r.imagen} alt={r.titulo} className="w-full h-32 object-cover group-hover:scale-105 transition-transform duration-500" />
+                  )}
+                  <div className="p-4">
+                    <span className="text-xs text-[var(--accent)] font-medium">{r.categoria}</span>
+                    <h4 className="text-[var(--primary)] font-semibold text-sm mt-1 group-hover:text-[var(--primary-light)] transition-colors line-clamp-2">
+                      {r.titulo}
+                    </h4>
+                    <p className="text-gray-400 text-xs mt-2">{r.lectura} de lectura</p>
+                  </div>
                 </Link>
               ))}
             </div>

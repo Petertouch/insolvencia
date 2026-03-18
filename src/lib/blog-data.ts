@@ -54,7 +54,7 @@ Cuando no es posible llegar a un acuerdo de negociación, se procede a liquidar 
 4. No haber sido beneficiario de este procedimiento en los últimos 5 años
 
 Si te encuentras agobiado por las deudas, no estás solo. La ley colombiana tiene herramientas para ayudarte.`,
-    imagen: "/blog/ley-insolvencia.jpg",
+    imagen: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800&h=450&fit=crop",
     categoria: "Ley de Insolvencia",
     autor: "Dr. Ramirez",
     fecha: "2026-03-15",
@@ -109,7 +109,7 @@ Si la negociación directa no funciona, el proceso de insolvencia de la Ley 1564
 ## Recomendación final
 
 No permitas que el miedo o la vergüenza te paralicen. Las deudas tienen solución legal y entre más pronto actúes, mejores serán las condiciones que puedas obtener.`,
-    imagen: "/blog/negociar-bancos.jpg",
+    imagen: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=450&fit=crop",
     categoria: "Negociacion de Deudas",
     autor: "Dra. Lopez",
     fecha: "2026-03-10",
@@ -154,7 +154,7 @@ Al iniciar un proceso de insolvencia bajo la Ley 1564:
 3. Consulta con un abogado para evaluar si un proceso de insolvencia es conveniente
 
 No dejes que el desconocimiento te quite más de lo que la ley permite. Conoce tus derechos y hazlos valer.`,
-    imagen: "/blog/embargo-salario.jpg",
+    imagen: "https://images.unsplash.com/photo-1633158829585-23ba8f7c8caf?w=800&h=450&fit=crop",
     categoria: "Derechos del Deudor",
     autor: "Dr. Ramirez",
     fecha: "2026-03-05",
@@ -212,7 +212,7 @@ Este es el punto más importante: **las deudas que no se cubren con la liquidaci
 El proceso de liquidación patrimonial tiene un término máximo de **un año** desde su inicio.
 
 Es un proceso serio pero que ofrece una salida real y definitiva al sobreendeudamiento.`,
-    imagen: "/blog/liquidacion.jpg",
+    imagen: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&h=450&fit=crop",
     categoria: "Liquidacion",
     autor: "Dra. Lopez",
     fecha: "2026-02-28",
@@ -257,7 +257,7 @@ El estrés financiero tiene consecuencias reales en la salud: insomnio, ansiedad
 4. **Consulta gratuita**: Muchos profesionales ofrecen una primera valoración sin costo
 
 El proceso de insolvencia no es un fracaso — es una herramienta legal diseñada para darte una segunda oportunidad.`,
-    imagen: "/blog/senales-insolvencia.jpg",
+    imagen: "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=800&h=450&fit=crop",
     categoria: "Consejos Financieros",
     autor: "Dr. Ramirez",
     fecha: "2026-02-20",
@@ -309,7 +309,7 @@ Después del proceso de insolvencia:
 4. En 1-2 años tendrás un perfil crediticio nuevo
 
 El proceso de insolvencia es un nuevo comienzo, no un final.`,
-    imagen: "/blog/centrales-riesgo.jpg",
+    imagen: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&h=450&fit=crop",
     categoria: "Ley de Insolvencia",
     autor: "Dra. Lopez",
     fecha: "2026-02-15",
